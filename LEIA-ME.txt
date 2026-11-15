@@ -1,0 +1,17 @@
+MORELIMBAU AR — PROTÓTIPO 01
+
+Arquivos:
+- index.html: página da experiência
+- targets.mind: imagem compilada pelo MindAR (renomeada da cópia enviada como targets.mind.txt)
+
+COMO TESTAR
+1. Publique os dois arquivos juntos em um host HTTPS estático (por exemplo, GitHub Pages).
+2. Abra o endereço HTTPS no Chrome do celular.
+3. Toque em INICIAR EXPERIÊNCIA e permita o uso da câmera.
+4. Aponte para a mesma ilustração usada no compilador MindAR.
+
+IMPORTANTE
+- A câmera normalmente não funciona ao abrir o HTML diretamente como arquivo local; use HTTPS ou localhost.
+- Mantenha index.html e targets.mind na mesma pasta.
+- Este é um primeiro teste técnico com elementos gráficos 2D sobrepostos. Ainda não é uma animação recortada do personagem.
+- A página carrega A-Frame e MindAR por CDNs, portanto precisa de internet.
